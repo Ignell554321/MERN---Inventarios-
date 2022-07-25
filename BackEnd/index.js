@@ -18,6 +18,7 @@ dbConnection();
 
 //Rutas
 app.use('/api/usuarios',require('./routes/usuarios'));
+app.use('/api/productos',require('./routes/productos'));
 
 
 app.listen(process.env.PORT,()=>{
