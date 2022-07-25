@@ -11,7 +11,7 @@ const ProductoSchema=Schema({
         require:true,
     },
     costo:{
-        type:String,
+        type:Number,
         require:true
     },
     marca:{
